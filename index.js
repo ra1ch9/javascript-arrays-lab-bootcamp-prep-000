@@ -13,8 +13,8 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name)
 }
 function appendKitten(name){
-  kittens.push(name);
-  return array;
+  var appendKit = kittens;
+  return [... appendKit, name];
 }
 function prependKitten(name){
 
