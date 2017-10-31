@@ -23,7 +23,7 @@ function prependKitten(name){
 function removeLastKitten(){
 var removeLastK = kittens;
 console.log("whats kittens.length", kittens.length);
-return removeLastK.slice(0,kittens.lenght-1);
+return removeLastK.slice(0,kittens.length-1);
 }
 function removeFirstKitten(){
   var removeFirstK = kittens;
