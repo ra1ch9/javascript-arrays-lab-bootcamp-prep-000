@@ -17,11 +17,15 @@ function appendKitten(name){
   return [... appendKit, name];
 }
 function prependKitten(name){
-
+ var prependKitten = kittens;
+ return [name ...prependKitten];
 }
 function removeLastKitten(){
-
+var removeLastK = kittens;
+console.log("whats kittens.lenght", kittens.lenght);
+return removeLastK.slice(0,kittens.lenght-1);
 }
 function removeFirstKitten(){
-
+  var removeFirstK = kittens;
+  return removeFirstK.slice(1)
 }
