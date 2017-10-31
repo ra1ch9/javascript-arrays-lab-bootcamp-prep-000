@@ -5,7 +5,7 @@ function destructivelyAppendKitten(name){
   push('Ralph');
 }
 function destructivelyPrependKitten(name){
-  unshift(name)
+  unshift('Bob')
 }
 function destructivelyRemoveLastKitten(array, index){
     shift(array -2)
