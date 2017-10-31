@@ -2,12 +2,10 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name){
-  push('Ralph');
-  return array;
+  kittens.push(name);
 }
 function destructivelyPrependKitten(name){
   unshift('Bob')
-  return array;
 }
 function destructivelyRemoveLastKitten(array, index){
     shift(array -2)
