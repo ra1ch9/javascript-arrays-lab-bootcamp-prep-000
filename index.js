@@ -17,7 +17,7 @@ function appendKitten(name){
   return [... appendKit, name];
 }
 function prependKitten(name){
- var prependKitten = kittens;
+ var prependKit = kittens;
  return [name...prependKitten];
 }
 function removeLastKitten(){
