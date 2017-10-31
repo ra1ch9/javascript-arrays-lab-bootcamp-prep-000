@@ -4,10 +4,10 @@ function destructivelyAppendKitten(name){
   kittens.push(name);
 }
 function destructivelyPrependKitten(name){
-  kittens.unshift(name)
+  kittens.unshift(name);
 }
-function destructivelyRemoveLastKitten(array, index){
-    kittens.shift(array -2)
+function destructivelyRemoveLastKitten(){
+    kittens.pop(name);
 }
 function destructivelyRemoveFirstKitten(){
   unshift()
